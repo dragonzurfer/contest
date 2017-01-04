@@ -7,3 +7,5 @@ Contest Problems
   [Voting-749C](http://codeforces.com/problemset/problem/749/C)```Greedy,Implementation,Two Pointers```  
 
   [Comments-747E](http://codeforces.com/problemset/problem/747/E)```DFS and similar,expression parsing```
+
+  [Servers-747C](http://codeforces.com/problemset/problem/747/C)```Implementation```
