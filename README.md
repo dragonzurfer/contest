@@ -11,3 +11,5 @@ Contest Problems
   [Servers-747C](http://codeforces.com/problemset/problem/747/C)```Implementation```
 
   [Lesha and Array Splitting-754A](http://codeforces.com/problemset/problem/754/A)```Greedy,Implementation```
+
+  [Hongcow Learns the Cyclic Shift-745A](http://codeforces.com/problemset/problem/745/A)```Strings```
