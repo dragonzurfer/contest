@@ -13,3 +13,5 @@ Contest Problems
   [Lesha and Array Splitting-754A](http://codeforces.com/problemset/problem/754/A)```Greedy,Implementation```
 
   [Hongcow Learns the Cyclic Shift-745A](http://codeforces.com/problemset/problem/745/A)```Strings```
+ 
+  [Santa Claus and Candies](http://codeforces.com/problemset/problem/753/A)```Greedy```
