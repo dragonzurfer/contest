@@ -15,3 +15,6 @@ Contest Problems
   [Hongcow Learns the Cyclic Shift-745A](http://codeforces.com/problemset/problem/745/A)```Strings```
  
   [Santa Claus and Candies-753A](http://codeforces.com/problemset/problem/753/A)```Greedy```
+
+## codechef
+  [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
