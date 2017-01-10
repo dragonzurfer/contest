@@ -20,3 +20,5 @@ Contest Problems
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
   
   [Capital Movement](https://www.codechef.com/JAN17)```DataStructures```
+
+  [Reservoir](https://www.codechef.com/JAN17)```Implementations```
