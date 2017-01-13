@@ -24,6 +24,8 @@ Contest Problems
   [Reservoir](https://www.codechef.com/JAN17)```Implementations```
 
 ## Hackerrank
-	[The Great XOR](https://www.hackerrank.com/contests/w28/challenges/the-great-xor)``math```
-	[Lucky Number Eight	](https://www.hackerrank.com/contests/w28/challenges/lucky-number-eight)```dp```
-	[The value of Friendship](https://www.hackerrank.com/contests/w28/challenges/value-of-friendship)```comming soon```
+  [The Great XOR](https://www.hackerrank.com/contests/w28/challenges/the-great-xor)``math```
+
+  [Lucky Number Eight	](https://www.hackerrank.com/contests/w28/challenges/lucky-number-eight)```dp```
+
+  [The value of Friendship](https://www.hackerrank.com/contests/w28/challenges/value-of-friendship)```comming soon```
