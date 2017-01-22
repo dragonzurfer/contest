@@ -28,4 +28,4 @@ Contest Problems
 
   [Lucky Number Eight	](https://www.hackerrank.com/contests/w28/challenges/lucky-number-eight)```dp```
 
-  [The value of Friendship](https://www.hackerrank.com/contests/w28/challenges/value-of-friendship)```comming soon```
+  [The value of Friendship](https://www.hackerrank.com/contests/w28/challenges/value-of-friendship)```disjoint sets```
