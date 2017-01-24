@@ -31,3 +31,5 @@ Contest Problems
   [The value of Friendship](https://www.hackerrank.com/contests/w28/challenges/value-of-friendship)```disjoint sets```
 
   [Equal](https://www.hackerrank.com/challenges/equal)```DP```
+
+  [Candies](https://www.hackerrank.com/challenges/candies)```DP```
