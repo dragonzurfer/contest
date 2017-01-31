@@ -33,3 +33,5 @@ Contest Problems
   [Equal](https://www.hackerrank.com/challenges/equal)```DP```
 
   [Candies](https://www.hackerrank.com/challenges/candies)```DP```
+
+  [Dependency Hell](https://www.hackerrank.com/contests/codeagon/challenges/dependency-hell)```Topological Sort, BFS , DFS```
