@@ -37,3 +37,5 @@ Contest Problems
   [Dependency Hell](https://www.hackerrank.com/contests/codeagon/challenges/dependency-hell)```Topological Sort, BFS , DFS```
 
   [Angry Children 2](https://www.hackerrank.com/challenges/angry-children-2)```DP```
+
+  [Dependency Hell](https://www.hackerrank.com/contests/codeagon/challenges/dependency-hell)```DP```
