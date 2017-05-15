@@ -11,11 +11,12 @@ using namespace std;
 #define endl '\n'
 #define clr(a) memset(a,0,sizeof(a))
 #define all(x) x.begin(),x.end()
-typedef long long ll;
+typedef int ll;
 
 struct query
 {
-	ll r,l,ans,fa;
+	ll r,l,fa;
+	int ans;
 };
 
 ll cnt[100000],a[100000];
@@ -61,25 +62,29 @@ int main()
 	clr(a);
 	FOR1(i,n-1)
 	cin>>a[i];
-//	cout<<"enter q";
-	cin>>querylen;// Read the number of queries
+	cin>>querylen;
 	ll qcnt=0;
 	while(qcnt!=querylen)
 	{
-		answ=0;
+		
+	answ=0;
 	if(querylen<100000)
-	q=querylen;
+		q=querylen;
 	else
 		q=100000;
+
 	query qa[q];
+
 	for(i=0;i<q;i++)
-   	{	ll l,rr;
+   	{	
+   		ll l,rr;
  		cin>>l>>rr;
  		qcnt+=1;
 		qa[i].l = l-1;
-		qa[i].r = rr - 1;// read all queries
+		qa[i].r = rr - 1;
 		qa[i].ans = i;
  	}	
+
 	clr(cnt);
 	rootn=pow(n,0.5);
 
@@ -101,9 +106,9 @@ int main()
 			currentR--;
 		}
 
-      		qa[i].fa=answ;
+      		qa[qa[i].ans].fa=answ;
   	}
-  	sort(qa,qa+q,cmp);
+  	
 	for(ll i=0;i<q;i++)
 		cout<<qa[i].fa<<endl;
 	}
