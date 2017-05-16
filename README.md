@@ -24,6 +24,8 @@ Contest Problems
   [Reservoir](https://www.codechef.com/JAN17)```Implementations```
 
 ## Hackerrank
+  [Fight the Monsters!](https://www.hackerrank.com/contests/w32/challenges/fight-the-monsters)```greedy```
+
   [Duplication](https://www.hackerrank.com/contests/w32/challenges/duplication)```math,bit operations```
 
   [The Great XOR](https://www.hackerrank.com/contests/w28/challenges/the-great-xor)``math```
