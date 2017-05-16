@@ -28,7 +28,7 @@ Contest Problems
 
   [Duplication](https://www.hackerrank.com/contests/w32/challenges/duplication)```math,bit operations```
 
-  [The Great XOR](https://www.hackerrank.com/contests/w28/challenges/the-great-xor)``math```
+  [The Great XOR](https://www.hackerrank.com/contests/w28/challenges/the-great-xor)```math```
 
   [Lucky Number Eight	](https://www.hackerrank.com/contests/w28/challenges/lucky-number-eight)```dp```
 
