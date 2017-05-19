@@ -2,6 +2,8 @@
 Contest Problems
 
 ## codeforces
+  [Laughing Out Loud (LOL)](http://codeforces.com/gym/100589/problem/I)```memoization,prefix,suffix```
+
   [Leaving Auction-749D](http://codeforces.com/problemset/problem/749/D)```BinarySearch,DataStructures```
 
   [Voting-749C](http://codeforces.com/problemset/problem/749/C)```Greedy,Implementation,Two Pointers```  
