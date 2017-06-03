@@ -11,25 +11,20 @@ using namespace std;
 #define endl '\n'
 #define clr(a) memset(a,0,sizeof(a))
 #define all(x) x.begin(),x.end()
+#define LSOne(S) (S & (-S))
 typedef long long ll;
 
 const int MAXN = 100005;
 const int MAXM = 100005;
 const int LN = 19;
-
-int N,N2,M, x,k, cur, A[2*MAXN+1],val[MAXN], LVL[MAXN], DP[LN][MAXN];
+int N;
+ll N2,M, x,k, cur, B1[MAXN],B2[MAXN],val[MAXN], LVL[MAXN], DP[LN][MAXN];
 
 int BL[MAXN << 1],ID[MAXN << 1];
 int l[MAXN], r[MAXN];
 
 vector < int > adjList[MAXN];
  
-struct query{
-	int id, l, r, lc;
-	bool operator < (const query& rhs){
-		return (BL[l] == BL[rhs.l]) ? (r < rhs.r) : (BL[l] < BL[rhs.l]);
-	}
-}Q[MAXM];
  
 // Set up Stuff
 void dfs(int u, int par){
@@ -61,28 +56,44 @@ inline int lca(int u, int v){
 	return DP[0][u];
 }
 
-void build() {  // build the tree
-  for (int i = N2 - 1; i > 0; --i) A[i] = A[i<<1] + A[i<<1|1];
+// Point query
+// Returns value at position b in the array for ft = B1
+// Returns value to be subtracted from query(B1, b) * b for ft = B2
+ll query1(ll* ft, int b)	{
+	ll sum = 0;
+	for (; b; b -= LSOne(b)) sum += ft[b];
+	return sum;
 }
 
-void modify(int p, int value) {  // set value at position p
-  for (A[p += N2] = value; p > 1; p >>= 1) A[p>>1] = A[p] + A[p^1];
+// Range query: Returns the sum of all elements in [1...b]
+ll query(int b) {
+    return (query1(B1, b) * b - query1(B2, b));
 }
 
-int query(int l, int r) {  // sum on interval [l, r)
-  int res = 0;
-  for (l += N2, r += N2; l < r; l >>= 1, r >>= 1) {
-    if (l&1) res += A[l++];
-    if (r&1) res += A[--r];
-  }
-  return res;
+// Range query: Returns the sum of all elements in [i...j]
+ll range_query(int i, int j)    {
+    return query(j) - query(i - 1);
+}
+
+// Point update: Adds v to the value at position k in the array
+// ft is the fenwick tree which represents that array
+void update(ll* ft, int k, ll v) {
+	for (; k <= N; k += LSOne(k)) ft[k] += v;
+}
+
+// Range update: Adds v to each element in [i...j]
+void range_update(int i, int j, ll v)	{
+	update(B1, i, v);
+	update(B1, j + 1, -v);
+	update(B2, i, v * (i - 1));
+	update(B2, j + 1, -v * j);
 }
 
 void update(int p,int u,int par)
 {
 	
 	// modify(u,x+(LVL[p]-LVL[u]+1)*k);
-	modify(l[u],x+(LVL[p]-LVL[u]+1)*k);
+	range_update(l[u],l[u],x+(LVL[p]-LVL[u]+1)*k);
 	// modify(N+r[u],x+(LVL[p]-LVL[u]+1)*k);
 	for (int i = 0; i < adjList[u].size(); i++){
 		int v = adjList[u][i];
@@ -92,14 +103,6 @@ void update(int p,int u,int par)
 		update(p,v, u);
 	}
 }
-// int main() {
-//   scanf("%d", &n);
-//   for (int i = 0; i < n; ++i) scanf("%d",  + n + i);
-//   build();
-//   modify(0, 1);
-//   printf("%d\n", query(3, 11));
-//   return 0;
-// }
   
 int main(){
  
@@ -112,33 +115,32 @@ int main(){
 		for (int i = 1; i <= N; i++) adjList[i].clear();
  
 		// Inputting Tree
-		A[1]=0;
 		for (int i = 2; i <= N; i++){
 			scanf("%d", &p);
 			adjList[p].push_back(i);
 			// adjList[i].push_back(p);
 		}
- 
 		// Preprocess
 		DP[0][1] = 1;
 		dfs(1, -1);
-		N2=2*N+1;
-		for(int i=0;i<N2;i++)
-			A[N2+i]=0;
+		cout<<"DONE:";int ti;cin>>ti;
+ 		// range_update(0,100000,0);
+		
 		// int size = sqrt(cur);
-		build();
+
 		cout<<endl;
 		ll u,t,left,right;
 
  		while(1)
  			{
- 				cout<<"\nVAL:";
- 				for(int i=0;i<2*N+1;i++)
- 					cout<<ID[i]<<" ";
- 				cout<<"\nVAL:";
- 				for(int i=0;i<=30;i++)
- 					cout<<A[i]<<" ";
- 				cout<<endl;
+ 				// cout<<"\nVAL:";
+ 				// for(int i=0;i<2*N+1;i++)
+ 				// 	cout<<ID[i]<<" ";
+ 				// cout<<"\nVAL:";
+ 				// for(int i=0;i<=30;i++)
+ 				// 	cout<<A[i]<<" ";
+ 				// cout<<endl;
+ 				cout<<"\n query:";
  				cin>>t;
  				if(t==1)
  				{
@@ -151,7 +153,7 @@ int main(){
  					cin>>u;
  					left=l[u];right=r[u];
  					cout<<"\nleft:"<<left<<" right:"<<right<<endl;
- 					cout<<query(left,right)<<endl;
+ 					cout<<range_query(left,right)<<endl;
  				}
  			}
 	}
