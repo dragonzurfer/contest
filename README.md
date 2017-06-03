@@ -18,12 +18,22 @@ Contest Problems
  
   [Santa Claus and Candies-753A](http://codeforces.com/problemset/problem/753/A)```Greedy```
 
+  [Sagheer and Crossroads-812A](http://codeforces.com/contest/812/problem/A)```Implementation```
+
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
   
   [Capital Movement](https://www.codechef.com/JAN17)```DataStructures```
 
   [Reservoir](https://www.codechef.com/JAN17)```Implementations```
+
+  [Prefix Inversions](https://www.codechef.com/LTIME48/problems/PREFINVS)```Implementation```
+
+  [A Good Set](https://www.codechef.com/JUNE17/problems/GOODSET)```math```
+
+  [Xenny and Coin Rankings](https://www.codechef.com/JUNE17/problems/XENRANK)```math```
+
+  [Tiplets](https://www.codechef.com/JUNE17/problems/SUMQ)```math```
 
 ## Hackerrank
   [Fight the Monsters!](https://www.hackerrank.com/contests/w32/challenges/fight-the-monsters)```greedy```
