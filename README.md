@@ -40,6 +40,8 @@ Contest Problems
 
   [Tiplets](https://www.codechef.com/JUNE17/problems/SUMQ)```math```
 
+  [Post Tree](https://www.codechef.com/problems/POSTTREE)```dp,Binary lifting```
+
 ## Hackerrank
   [Fight the Monsters!](https://www.hackerrank.com/contests/w32/challenges/fight-the-monsters)```greedy```
 
