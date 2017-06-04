@@ -4,6 +4,8 @@ Contest Problems
 ## Atcoder
   [Nuske vs Phantom Thnook-Grand Contest015](http://agc015.contest.atcoder.jp/tasks/agc015_c)```Graph theory,dp```
 
+  [Bugged-Regular Contest075](http://arc075.contest.atcoder.jp/tasks/arc075_a)
+
 ## codeforces
   [Laughing Out Loud (LOL)](http://codeforces.com/gym/100589/problem/I)```memoization,prefix,suffix```
 
