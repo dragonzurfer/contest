@@ -79,7 +79,7 @@ Contest Problems
   [Zero Move Nim](https://www.hackerrank.com/contests/w27/challenges/zero-move-nim)```Game Theory```
 
 ## Hackerearth
-	[Zulu encounters a Sequence Problem](https://www.hackerearth.com/challenge/competitive/may-circuits-17/algorithm/zulu-encounters-a-sequence-problem/)```prefix,suffix array```
+[Zulu encounters a Sequence Problem](https://www.hackerearth.com/challenge/competitive/may-circuits-17/algorithm/zulu-encounters-a-sequence-problem/)```prefix,suffix array```
 
 ## Spoj
   [Aibohphobia](http://www.spoj.com/problems/AIBOHP/)```dp```
