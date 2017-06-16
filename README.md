@@ -2,11 +2,13 @@
 Contest Problems
 
 ## IMP
-  [Xennia](https://github.com/dragonzurfer/contest/blob/master/XeniaTree.cpp)
+  [Xennia](https://github.com/dragonzurfer/contest/blob/master/XeniaTree.cpp)```centroid decomposition```
 
-  [QTREE](https://github.com/dragonzurfer/contest/blob/master/QTREE.cpp)
+  [QTREE](https://github.com/dragonzurfer/contest/blob/master/QTREE.cpp)```HLD```
 
-  [linearizeTree](https://github.com/dragonzurfer/contest/blob/master/linearizeTreeMo.cpp)
+  [linearizeTree](https://github.com/dragonzurfer/contest/blob/master/linearizeTreeMo.cpp)```dfs ordering```
+
+  [Rectangles in a Matrix](https://github.com/dragonzurfer/contest/blob/master/GrandContest015C.cpp)```DP```
 
 ## Atcoder
   [Nuske vs Phantom Thnook-Grand Contest015](http://agc015.contest.atcoder.jp/tasks/agc015_c)```Graph theory,dp```
