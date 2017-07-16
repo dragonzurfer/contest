@@ -49,6 +49,21 @@ void init(ll i,ll a,ll b)
 	open[i]=open[2*i]+open[2*i+1]-vv;
 }
 
+void increment(ll i,ll a,ll b,ll val)
+{
+	if(b<lo[i] || hi[i]<a )return;
+
+	if( a<=lo[i] && hi[i]<=b)
+	{
+		
+		delta[i]+=val;
+		return;
+	}
+	prop(i);
+	increment(2*i,a,b,val);
+	increment(2*i+1,a,b,val);
+	update(i);
+}
 
 pair<ll,pair<ll,ll> > query_tree(ll i,ll a,ll b)
 {

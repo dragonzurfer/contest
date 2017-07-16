@@ -214,13 +214,6 @@ int main()
 			increment(1,i,i,basearray[i]);
 			// cout<<basearray[i]<<" ";
 		}
-		// cout<<endl;
-		// FOR(i,0,chainNo)
-		// {
-		// 	cout<<"\nchain "<<i<<":";
-		// 	for(auto&k:chaindet[i])
-		// 		cout<<"("<<k<<","<<cindex[k]<<") ";
-		// }
 
 		string s;
 		while(1)
@@ -228,6 +221,7 @@ int main()
 			cin>>s;
 			if(s=="CHANGE")
 			{
+				u=rll v=rll
 				
 			}
 			if(s=="QUERY")
