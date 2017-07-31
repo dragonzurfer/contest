@@ -19,6 +19,10 @@ Contest Problems
 
   [Simple Knapsack-Regular Contest073](http://arc073.contest.atcoder.jp/tasks/arc073_b)```dp```
 
+  [Splitting Pie](http://arc078.contest.atcoder.jp/tasks/arc078_a)```simple dp```
+
+  [Fennec Vs Snuke](https://arc078.contest.atcoder.jp/tasks/arc078_b)```dfs```
+
 ## codeforces
   [Laughing Out Loud (LOL)](http://codeforces.com/gym/100589/problem/I)```memoization,prefix,suffix```
 
@@ -37,6 +41,8 @@ Contest Problems
   [Santa Claus and Candies-753A](http://codeforces.com/problemset/problem/753/A)```Greedy```
 
   [Sagheer and Crossroads-812A](http://codeforces.com/contest/812/problem/A)```Implementation```
+
+  [The Bakery-833B](http://codeforces.com/contest/833/problem/B)```optimized DP```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
