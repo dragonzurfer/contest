@@ -10,6 +10,8 @@ Contest Problems
 
   [Rectangles in a Matrix](https://github.com/dragonzurfer/contest/blob/master/GrandContest015C.cpp)```DP```
 
+  [Intersecting node count s->f , t->f](https://github.com/dragonzurfer/contest/blob/master/832D.cpp)```LCA```
+
 ## Atcoder
   [Nuske vs Phantom Thnook-Grand Contest015](http://agc015.contest.atcoder.jp/tasks/agc015_c)```Graph theory,dp```
 
@@ -24,6 +26,8 @@ Contest Problems
   [Fennec Vs Snuke](https://arc078.contest.atcoder.jp/tasks/arc078_b)```dfs```
 
 ## codeforces
+  [Misha, Grisha and Underground](http://codeforces.com/problemset/problem/832/D)```Graph Theory```
+
   [Laughing Out Loud (LOL)](http://codeforces.com/gym/100589/problem/I)```memoization,prefix,suffix```
 
   [Leaving Auction-749D](http://codeforces.com/problemset/problem/749/D)```BinarySearch,DataStructures```
