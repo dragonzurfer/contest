@@ -13,6 +13,8 @@ Contest Problems
   [Intersecting node count s->f , t->f](https://github.com/dragonzurfer/contest/blob/master/832D.cpp)```LCA```
 
 ## Atcoder
+  [Similar Arrays](http://code-festival-2017-qualc.contest.atcoder.jp/tasks/code_festival_2017_qualc_b)```adhoc,math```
+
   [Nuske vs Phantom Thnook-Grand Contest015](http://agc015.contest.atcoder.jp/tasks/agc015_c)```Graph theory,dp```
 
   [Bugged-Regular Contest075](http://arc075.contest.atcoder.jp/tasks/arc075_a)```Implementation```
