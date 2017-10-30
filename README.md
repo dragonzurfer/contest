@@ -68,6 +68,8 @@ Contest Problems
   [Post Tree](https://www.codechef.com/problems/POSTTREE)```dp,Binary lifting```
 
 ## Hackerrank
+  [Torque And Development] (https://www.hackerrank.com/challenges/torque-and-development/copy-from/55464878) ```DSU```
+
   [Fight the Monsters!](https://www.hackerrank.com/contests/w32/challenges/fight-the-monsters)```greedy```
 
   [Duplication](https://www.hackerrank.com/contests/w32/challenges/duplication)```math,bit operations```
