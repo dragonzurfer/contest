@@ -26,6 +26,8 @@ Contest Problems
   [Splitting Pie](http://arc078.contest.atcoder.jp/tasks/arc078_a)```simple dp```
 
   [Fennec Vs Snuke](https://arc078.contest.atcoder.jp/tasks/arc078_b)```dfs```
+  
+  [Kth Substring](https://arc097.contest.atcoder.jp/tasks/arc097_c)```implimentation, brute force```[CODE](https://github.com/dragonzurfer/contest/blob/master/KTHSubstring.cpp)
 
 ## codeforces
   [Misha, Grisha and Underground](http://codeforces.com/problemset/problem/832/D)```Graph Theory```
