@@ -101,6 +101,8 @@ Contest Problems
   [Zero Move Nim](https://www.hackerrank.com/contests/w27/challenges/zero-move-nim)```Game Theory```
   
   [Watson's Love for Arrays - WCS13Problem3](https://www.hackerrank.com/contests/world-codesprint-13/challenges/watsons-love-for-arrays)```dp```
+  
+  [Landslide - WCS13problem6](https://www.hackerrank.com/contests/world-codesprint-13/challenges/landslide)```dfs,Euler Tour,Segment tree,lca```
 
 ## Hackerearth
 [Zulu encounters a Sequence Problem](https://www.hackerearth.com/challenge/competitive/may-circuits-17/algorithm/zulu-encounters-a-sequence-problem/)```prefix,suffix array```
