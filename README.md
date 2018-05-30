@@ -57,6 +57,8 @@ Contest Problems
   [Kuro and Walking Route - 979C](http://codeforces.com/contest/979/problem/C) ```dfs```
   
   [Road Map - 34D](http://codeforces.com/problemset/problem/34/D) ```dfs```
+  
+  [XOR pyramid - 983B](http://codeforces.com/contest/983/problem/B)```dp```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
