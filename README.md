@@ -104,7 +104,7 @@ Contest Problems
 
   [Zero Move Nim](https://www.hackerrank.com/contests/w27/challenges/zero-move-nim)```Game Theory```
   
-  [Group Formation](https://www.hackerrank.com/contests/world-codesprint-13/challenges/group-formation)```DSU,DFS```
+  [Group Formation - WCS13Problem2](https://www.hackerrank.com/contests/world-codesprint-13/challenges/group-formation)```DSU,DFS```
   
   [Watson's Love for Arrays - WCS13Problem3](https://www.hackerrank.com/contests/world-codesprint-13/challenges/watsons-love-for-arrays)```dp```
   
