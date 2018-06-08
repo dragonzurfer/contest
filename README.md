@@ -61,6 +61,8 @@ Contest Problems
   [XOR pyramid - 983B](http://codeforces.com/contest/983/problem/B)```dp```
 
   [Fair - 987D](http://codeforces.com/contest/987/problem/D)```parallel bfs```
+  
+  [Find Min Sum Array - GYM 101810 F)(https://www.codeforces.com/gym/101810/problem/F)```hashing,greedy```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
