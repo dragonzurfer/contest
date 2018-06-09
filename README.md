@@ -62,7 +62,9 @@ Contest Problems
 
   [Fair - 987D](http://codeforces.com/contest/987/problem/D)```parallel bfs```
   
-  [Find Min Sum Array - GYM 101810 F)(https://www.codeforces.com/gym/101810/problem/F)```hashing,greedy```
+  [Find Min Sum Array - GYM 101810 F](https://www.codeforces.com/gym/101810/problem/F)```hashing,greedy```
+  
+  [Rain and Umbreallas](https://www.codeforces.com/contest/988/problem/F)```dp```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
