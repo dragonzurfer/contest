@@ -65,6 +65,8 @@ Contest Problems
   [Find Min Sum Array - GYM 101810 F](https://www.codeforces.com/gym/101810/problem/F)```hashing,greedy```
   
   [Rain and Umbreallas](https://www.codeforces.com/contest/988/problem/F)```dp```
+  
+  [Zebras - 950C](http://codeforces.com/contest/950/problem/C)```greedy```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
