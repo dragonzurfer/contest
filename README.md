@@ -69,6 +69,8 @@ Contest Problems
   [Zebras - 950C](http://codeforces.com/contest/950/problem/C)```greedy```
   
   [Bracket Sequences Concatenation Problem - 990C](http://codeforces.com/contest/990/problem/C)```math```
+  
+  [A Tide of Riverscape - 989B](http://codeforces.com/contest/989/problem/B)```constructive algo```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
