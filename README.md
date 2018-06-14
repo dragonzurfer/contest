@@ -71,6 +71,8 @@ Contest Problems
   [Bracket Sequences Concatenation Problem - 990C](http://codeforces.com/contest/990/problem/C)```math```
   
   [A Tide of Riverscape - 989B](http://codeforces.com/contest/989/problem/B)```constructive algo```
+  
+  [Our Tanya is Crying Out Loud - 940B](http://codeforces.com/contest/940/problem/B)```greedy```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
