@@ -73,6 +73,8 @@ Contest Problems
   [A Tide of Riverscape - 989B](http://codeforces.com/contest/989/problem/B)```constructive algo```
   
   [Our Tanya is Crying Out Loud - 940B](http://codeforces.com/contest/940/problem/B)```greedy```
+  
+  [Jamie and Interesting Graph - 916C](http://codeforces.com/contest/916/problem/C)```constructive algo,graph```
 
 ## codechef
   [Cats and Dogs](https://www.codechef.com/JAN17)```Implementation```
